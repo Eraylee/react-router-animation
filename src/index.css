@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .fade-enter {
+  transform: translateY(-100);
+}
+
+.fade-enter.fade-enter-active {
+  transform: translateY(0);
+  transition: transform 300ms ease-in;
+}
+
+.fade-leave {
+  transform: translateY(0);
+  transition: transform 300ms ease-in;
+}
+
+.fade-leave.fade-leave-active {
+  transform: translateY(-100);
+  transition: transform 300ms ease-in;
+} */
+
+.router-wrapper {
+  overflow: hidden;
+}
+.forward-enter {
+  transform: translateX(100%);
+}
+
+.forward-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+
+.forward-exit {
+  transform: translateX(0);
+}
+
+.forward-exit-active {
+  transform: translateX(-100%);
+  transition: transform 460ms;
+}
+
+.back-enter {
+  transform: translateX(-100%);
+}
+
+.back-enter-active {
+  transform: translateX(0);
+  transition: transform 460ms;
+}
+
+.back-exit {
+  transform: translateX(0);
+}
+
+.back-exit-active {
+  transform: translate(100%);
+  transition: transform 460ms;
+}
